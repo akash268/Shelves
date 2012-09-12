@@ -20,7 +20,7 @@
         	<forward name="success" path="/helloWorld.jsp" />
         </action>
         <action path="/output" type="com.enr.action.OutputAction" name="outputForm" scope="request"
-   validate="true">
+   validate="true" input="current.jsp">
         	<forward name="sucksess" path="/jeet.html" />
         	<forward name="fail" path="/haar.html" />
         </action>
